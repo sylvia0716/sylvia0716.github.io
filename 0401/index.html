@@ -1,16 +1,29 @@
 <!doctype html>
 <html lang="en">
 
+<!doctype html>
+<html lang="en">
+
 <head>
+
+    <!--引入 Bootstrap-->>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>唐詩</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>SYLVIA'S WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
 
+
+    <!--引入字型-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap"rel="stylesheet">
 
     <style>
         .zen-maru-gothic-regular-01 {
@@ -26,86 +39,170 @@
             font-style: normal;
             color: #0077b6;
         }
+
+        .lxgw-wenkai-tc-regular {
+            font-family: "LXGW WenKai TC", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
     </style>
 </head>
 
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+<body class="lxgw-wenkai-tc-regular">
 
-    <div class="container text-center">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.ntue.edu.tw/"><img
+                    src="img/how-to-draw-a-cute-cat-for-kids.jpg" width="32" height="32"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Homework
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../0304/index.html">0304</a></li>
+                            <li><a class="dropdown-item" href="../0311/index.html">0311</a></li>
+                            <li><a class="dropdown-item" href="../0318/index.html">0318</a></li>
+                            <li><a class="dropdown-item" href="../0325/index.html">0325</a></li>
+                            <li><a class="dropdown-item" href="../0401/index.html">0401</a></li>
+                            <li><a class="dropdown-item" href="../0408/index.html">0408</a></li>
+                            <li><a class="dropdown-item" href="../0415/index.html">0415</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class = "container">
         <div class="row">
             <div class="col">
 
-                <img src="img/draw2.png" width="256">
+                <div class="card">
+                    <img src="img/draw2 copy.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">唐詩三百首</h5>
+                      <p class="card-text"><h3>王煥之。 登 鸛 鵲 樓</h3>
 
-                <h1>王煥之。 登 鸛 鵲 樓</h1>
-
-                <p>
-                    白 日 依 山 盡 ， 　黃 河 入 海 流 。<br>
-                    欲 窮 千 里 目 ， 　更 上 一 層 樓 。
-                </p>
-
+                        <p>
+                            白 日 依 山 盡 ， 　黃 河 入 海 流 。<br>
+                            欲 窮 千 里 目 ， 　更 上 一 層 樓 。
+                        </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
+
             <div class="col">
 
-                <img src="img/da(1).jpg" width="256">
+                <div class="card">
+                    <img src="img/da(1).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">唐詩三百首</h5>
+                      <p class="card-text"><h3>李白。 怨 情</h3>
 
-                <h1>李白。 怨 情</h1>
-
-                <p>
-                    美 人 捲 珠 簾 ， 　深 坐 顰 蛾 眉 。<br>
-                    但 見 淚 痕 濕 ， 　不 知 心 恨 誰 。
-                </p>
-
+                        <p>
+                            美 人 捲 珠 簾 ， 　深 坐 顰 蛾 眉 。<br>
+                            但 見 淚 痕 濕 ， 　不 知 心 恨 誰 。
+                        </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
+
             <div class="col">
 
-                <img src="img/resize.jpg" width="256">
+                <div class="card">
+                    <img src="img/resize.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">唐詩三百首</h5>
+                      <p class="card-text"><h3>元稹。 行 宮</h3>
 
-                <h1>元稹。 行 宮</h1>
-
-                <p>
-                    寥 落 古 行 宮 ， 　宮 花 寂 寞 紅 。<br>
-                    白 頭 宮 女 在 ， 　閒 坐 說 玄 宗 。
-                </p>
-
+                        <p>
+                            寥 落 古 行 宮 ， 　宮 花 寂 寞 紅 。<br>
+                            白 頭 宮 女 在 ， 　閒 坐 說 玄 宗 。
+                        </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
+
         </div>
-    </div>
 
-
-    <div class="container text-center">
         <div class="row">
             <div class="col">
 
-                <img src="img/下載.jpg" width="256">
+                <div class="card">
+                    <img src="img/下載 copy.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">唐詩三百首</h5>
+                      <p class="card-text"><h3> 孟浩然 。 春 曉</h3>
 
-                <h1> 孟浩然 。 春 曉</h1>
-
-                <p>
-
-                    春 眠 不 覺 曉 ， 　處 處 聞 啼 鳥 。<br>
-                    夜 來 風 雨 聲 ， 　花 落 知 多 少 。
-
-                </p>
-
+                        <p>
+        
+                            春 眠 不 覺 曉 ， 　處 處 聞 啼 鳥 。<br>
+                            夜 來 風 雨 聲 ， 　花 落 知 多 少 。
+        
+                        </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
+
             <div class="col">
 
-                <img src="img/draw22.png" width="256">
+                <div class="card">
+                    <img src="img/draw22.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">唐詩三百首</h5>
+                      <p class="card-text"><h3>柳宗元。 江 雪</h3>
 
-                <h1>柳宗元。 江 雪</h1>
+                        <p>
+        
+                            千 山 鳥 飛 絕 ， 　萬 徑 人 蹤 滅 。<br>
+                            孤 舟 蓑 笠 翁 ， 　獨 釣 寒 江 雪 。
+                            
+                        </p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
 
-                <p>
-
-                    千 山 鳥 飛 絕 ， 　萬 徑 人 蹤 滅 。<br>
-                    孤 舟 蓑 笠 翁 ， 　獨 釣 寒 江 雪 。
-                    
-                </p>
         </div>
+
+        
     </div>
+
+    <div>
+        <footer class = "text-center text-lg-start bg-light text-muted">
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2025 Copyright:
+                <a class="text-reset fw-bold" href="https://www.ntue.edu.tw/">NTUE</a>
+            </div>
 </body>
 
 </html>
