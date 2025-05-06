@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+
+<head>
+
+    <!--引入 Bootstrap-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SYLVIA'S WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+
+    <!--引入字型-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+
+    <style>
+        .zen-maru-gothic-regular-01 {
+            font-family: "Zen Maru Gothic", serif;
+            font-weight: 600;
+            font-style: normal;
+            color: #03045e;
+        }
+
+        .zen-maru-gothic-regular-02 {
+            font-family: "Zen Maru Gothic", serif;
+            font-weight: 500;
+            font-style: normal;
+            color: #0077b6;
+        }
+
+        .lxgw-wenkai-tc-regular {
+            font-family: "LXGW WenKai TC", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="lxgw-wenkai-tc-regular">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.ntue.edu.tw/"><img src="img/how-to-draw-a-cute-cat-for-kids.jpg"
+                    width="32" height="32"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://sites.google.com/stu.ntue.edu.tw/sylvia">About me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Homework
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../0304/index.html">0304</a></li>
+                            <li><a class="dropdown-item" href="../0311/index.html">0311</a></li>
+                            <li><a class="dropdown-item" href="../0318/index.html">0318</a></li>
+                            <li><a class="dropdown-item" href="../0325/index.html">0325</a></li>
+                            <li><a class="dropdown-item" href="../0401/index.html">0401</a></li>
+                            <li><a class="dropdown-item" href="../0408/index.html">0408</a></li>
+                            <li><a class="dropdown-item" href="../0415/index.html">0415</a></li>
+                            <li><a class="dropdown-item" href="../0422/index.html">0422</a></li>
+                            <li><a class="dropdown-item" href="../0429/index.html">0429</a></li>
+                            <li><a class="dropdown-item" href="../0506/index.html">0506</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center">2025/05/06 BootStrap 元件</h1>
+    <hr>
+
+    <!--表單-->
+    <div class="container">
+
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="請輸入電子郵件">
+
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <div style="height: 20px;"></div>
+            <hr>
+
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Example label</label>
+                <input type="text" class="form-control" id="formGroupExampleInput"
+                    placeholder="Example input placeholder">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Another label</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2"
+                    placeholder="Another input placeholder">
+            </div>
+
+            <div style="height: 20px;"></div>
+            <hr>
+
+            <div class="row">
+                <div class="col">
+                    <label class="form-label">名</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <label class="form-label">姓</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+
+            <div style="height: 20px;"></div>
+            <hr>
+
+            <select class="form-select" aria-label="Large select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                  Default checkbox
+                </label>
+
+                <div style="height: 20px;"></div>
+                <hr>
+            
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                <label class="form-check-label" for="checkChecked">
+                  Checked checkbox
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                <label class="form-check-label" for="checkDefault">
+                  Default checkbox
+                </label>
+              </div>
+
+              <div style="height: 20px;"></div>
+              <hr>
+
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                <label class="form-check-label" for="switchCheckDefault">Default switch checkbox input</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckChecked" checked>
+                <label class="form-check-label" for="switchCheckChecked">Checked switch checkbox input</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDisabled" disabled>
+                <label class="form-check-label" for="switchCheckDisabled">Disabled switch checkbox input</label>
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckCheckedDisabled" checked disabled>
+                <label class="form-check-label" for="switchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+              </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
